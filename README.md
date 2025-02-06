@@ -1,16 +1,32 @@
-steps to run this file:
-1.Install the xampp in computer.
-2.copy the folder and open in vscode.
-3.Now start the apache and mysql.
-4.now open the mysql admin in chrome.
-5.create studentinfo database.
-6.now create the following tables by applying few features
-i.create questionsdata table containing id(primary key),name,email and message.
-ii.create response table containing id,name,email and message.
-iii.create stdentsdata table containing id(primary key),name,email(unique) and message.
-7.Now open any chrome and run below command.
-localhost/QUERA/index.php   
-then main page will open.
+# CMR Quora
 
-More about project:
-open above page and first register in the website using only college email id (ever  email use in project should be college email id only).now login the page and enter into the main page where user can add the queries and user can see,edit,delete and respond to the queries.
+This is a simple web application that allows students to register using their college email IDs, submit queries, and interact with them by viewing, editing, or responding to other queries.
+
+## Prerequisites
+
+- Install [XAMPP](https://www.apachefriends.org/index.html) on your computer.
+- Visual Studio Code (VSCode) for editing the project files.
+
+## Steps to Run the Project
+
+1. **Install XAMPP:**
+   - Download and install XAMPP from [XAMPP Official Website](https://www.apachefriends.org/index.html).
+
+2. **Copy the Project Folder:**
+   - Copy the project folder to a location on your computer.
+
+3. **Open the Project in VSCode:**
+   - Open the project folder in Visual Studio Code (VSCode).
+
+4. **Start Apache and MySQL:**
+   - Open the XAMPP Control Panel and start both **Apache** and **MySQL**.
+
+5. **Open MySQL Admin:**
+   - Open your browser (Chrome) and go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin) to access MySQL admin.
+
+6. **Create Database:**
+   - Create a new database named `studentinfo` in MySQL.
+
+7. **Create Tables:**
+   - Create the following tables within the `studentinfo` database by running the following SQL queries:
+
