@@ -28,5 +28,5 @@ This is a simple web application that allows students to register using their co
    - Create a new database named `studentinfo` in MySQL.
 
 7. **Create Tables:**
-   - Create the following tables within the `studentinfo` database by running the following SQL queries:
+   - Create the tables within the `studentinfo` database .
 
